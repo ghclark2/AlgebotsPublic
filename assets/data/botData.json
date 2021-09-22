@@ -1,164 +1,253 @@
 [
- {
-   "type": "s+",
-   "level": 1,
-   "subLevel": "a",
-   "problem": "a+b",
-   "paramSet1": "a:+1:9,b:+1:9",
-   "paramSet2": "a:-1:9,b:±1:9!-a",
-   "solution": "{a+b}"
- },
- {
-   "type": "s+",
-   "level": 2,
-   "subLevel": "a",
-   "problem": "(ax)+(bx)",
-   "paramSet1": "a:+1:9,b:+1:9",
-   "paramSet2": "a:-1:9,b:±1:9!-a",
-   "solution": "{a+b}x"
- },
- {
-   "type": "s+",
-   "level": 3,
-   "subLevel": "a",
-   "problem": "a+(bx)+c",
-   "paramSet1": "a:+1:9,b:+1:9,c:+1:9",
-   "paramSet2": "a:±1:9,b:±1:9,c:±1:9",
-   "solution": "{a+c}+(bx)"
- },
- {
-   "type": "s+",
-   "level": 3,
-   "subLevel": "b",
-   "problem": "a+(bx)+(cx)",
-   "paramSet1": "a:+1:9,b:+1:9,c:+1:9",
-   "paramSet2": "a:±1:9,b:±1:9,c:±1:9",
-   "solution": "a+({b+c}x)"
- },
- {
-   "type": "s+",
-   "level": 3,
-   "subLevel": "c",
-   "problem": "(ax)+b+(cx)+d",
-   "paramSet1": "a:+1:9,b:+1:9,c:+1:9,d:+1:9",
-   "paramSet2": "a:±1:9,b:±1:9,c:±1:9,d:±1:9",
-   "solution": "{b+d}+({a+c}x)"
- },
- {
-   "type": "s+",
-   "level": 4,
-   "subLevel": "a",
-   "problem": "",
-   "paramSet1": "",
-   "paramSet2": "",
-   "solution": ""
- },
- {
-   "type": "s+",
-   "level": 5,
-   "subLevel": "a",
-   "problem": "",
-   "paramSet1": "",
-   "paramSet2": "",
-   "solution": ""
- },
- {
-   "type": "s+",
-   "level": 5,
-   "subLevel": "b",
-   "problem": "",
-   "paramSet1": "",
-   "paramSet2": "",
-   "solution": ""
- },
- {
-   "type": "s+",
-   "level": 6,
-   "subLevel": "a",
-   "problem": "",
-   "paramSet1": "",
-   "paramSet2": "",
-   "solution": ""
- },
- {
-   "type": "s+",
-   "level": 6,
-   "subLevel": "b",
-   "problem": "(ax)+(bx)+(cxy)+(dxy)+e",
-   "paramSet1": "",
-   "paramSet2": "",
-   "solution": ""
- },
- {
-  "type": "sx+",
-  "level": 2,
-  "subLevel": "a",
-  "problem": "a((bx)+c)",
-  "paramSet1": "a:+2:9,b:+2:9,c:+2:9",
-  "paramSet2": "",
-  "solution": "({a*b}x)+{a*c}"
-},
-{
-  "type": "sx+",
-  "level": 3,
-  "subLevel": "a",
-  "problem": "ax((bx)+c)",
-  "paramSet1": "a:+2:9,b:+2:9,c:+2:9",
-  "paramSet2": "a:±2:9,b:±2:9,c:±2:9",
-  "solution": "({a*b}(x^2))+({a*c}x)"
-},
- {
-  "type": "sx",
-  "level": 1,
-  "subLevel": "a",
-  "problem": "x*x",
-  "paramSet1": "",
-  "paramSet2": "",
-  "solution": "x^2"
-},
-{
-  "type": "test",
-  "level": 1,
-  "subLevel": "a",
-  "problem": "2+0+3-1",
-  "paramSet1": "a:+2:9,b:+2:9,c:+2:9",
-  "paramSet2": "a:±2:9,b:±2:9,c:±2:9",
-  "solution": "ax"
-},
-{
-  "type": "test",
-  "level": 2,
-  "subLevel": "a",
-  "problem": "(2(a+x))/(x(a+x))",
-  "paramSet1": "a:+2:9,b:+2:9,c:+2:9",
-  "paramSet2": "a:±2:9,b:±2:9,c:±2:9",
-  "solution": "ax"
-},
-{
-   "type": "sx",
-   "level": 2,
-   "subLevel": "a",
-   "problem": "x*(x^a)",
-   "paramSet1": "a:+2:9",
-   "paramSet2": "a:±2:9",
-   "solution": "x^{a+1}"
- },
- {
-  "type": "sx",
-  "level": 3,
-  "subLevel": "a",
-  "problem": "x*(x^a)*a*y*xy",
-  "paramSet1": "a:+2:9",
-  "paramSet2": "a:±2:9",
-  "solution": "x^{a+1}"
-},
- {
-   "type": "sx",
-   "level": 6,
-   "subLevel": "a",
-   "problem": "a(x^b)(y^c)*d(y^e)(z^f)",
-   "paramSet1": "a:+2:9,b:+1:5,c:+1:5,d:+2:9,e:+1:5,f:+1:5",
-   "paramSet2": "",
-   "solution": "{a*d}(x^b)(y^{c+e})(z^f)"
- }
+	{
+		"type": "ShiftLeft",
+		"level": "1",
+		"difficulty": "1",
+		"problem": "x+y",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "ShiftLeft",
+		"level": "1",
+		"difficulty": "2",
+		"problem": "x+y+z",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "ShiftLeft",
+		"level": "1",
+		"difficulty": "3",
+		"problem": "ax+by+cz",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "ShiftLeft",
+		"level": "1",
+		"difficulty": "4",
+		"problem": "aw+bx+cy+dz",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "RemoveZero",
+		"level": "2",
+		"difficulty": "1",
+		"problem": "ax+0",
+		"param": "a:+2|9",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "RemoveZero",
+		"level": "2",
+		"difficulty": "2",
+		"problem": "ax+by+0",
+		"param": "a:+2|9; b:+2|9",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "RemoveZero",
+		"level": "2",
+		"difficulty": "3",
+		"problem": "ax+by+0+0",
+		"param": "a:+2|9; b:+2|9",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "RemoveZero",
+		"level": "2",
+		"difficulty": "4",
+		"problem": "ax+by+0+0-0",
+		"param": "a:+2|9; b:+2|9",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "RemoveOne",
+		"level": "3",
+		"difficulty": "1",
+		"problem": "1x",
+		"param": "",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "RemoveOne",
+		"level": "3",
+		"difficulty": "2",
+		"problem": "1x+ay",
+		"param": "",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "RemoveOne",
+		"level": "3",
+		"difficulty": "3",
+		"problem": "1x+1y+az",
+		"param": "",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "RemoveOne",
+		"level": "3",
+		"difficulty": "4",
+		"problem": "1x+1y+az+b",
+		"param": "",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "CollapseToZero",
+		"level": "4",
+		"difficulty": "1",
+		"problem": "0x",
+		"param": "",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "CollapseToZero",
+		"level": "4",
+		"difficulty": "2",
+		"problem": "0x+ay",
+		"param": "",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "CollapseToZero",
+		"level": "4",
+		"difficulty": "3",
+		"problem": "0x+0y+az",
+		"param": "",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "CollapseToZero",
+		"level": "4",
+		"difficulty": "4",
+		"problem": "0x+0y+az+b",
+		"param": "",
+		"mods": "tidy: false"
+	},
+	{
+		"type": "CombineAdd",
+		"level": "5",
+		"difficulty": "1",
+		"problem": "a+b",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "5",
+		"difficulty": "2",
+		"problem": "a+b+c",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "5",
+		"difficulty": "3",
+		"problem": "x+x",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "5",
+		"difficulty": "3",
+		"problem": "ax+bx",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "5",
+		"difficulty": "4",
+		"problem": "ax-ax",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "6",
+		"difficulty": "1",
+		"problem": "ax+bx+cy",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "6",
+		"difficulty": "1",
+		"problem": "ax+bx+cy+dy",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "6",
+		"difficulty": "2",
+		"problem": "ax-ax+by",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "6",
+		"difficulty": "2",
+		"problem": "ax-ax+by+cy",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "6",
+		"difficulty": "2",
+		"problem": "ax-ax+by+c",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "6",
+		"difficulty": "3",
+		"problem": "ax+bx+cx+dy+ey",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "6",
+		"difficulty": "3",
+		"problem": "ax+bx+cy+dy+ez",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "6",
+		"difficulty": "3",
+		"problem": "ax+bx+cy+dy+e",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "6",
+		"difficulty": "3",
+		"problem": "ax+bx+cy+d+e",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "CombineAdd",
+		"level": "6",
+		"difficulty": "4",
+		"problem": "ax-ax+cy+dy+ez",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": ""
+	}
 ]
