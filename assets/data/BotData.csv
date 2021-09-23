@@ -1,6 +1,7 @@
 type,level,difficulty,problem,param,mods
 ShiftLeft,1,1,x+y,,
 ShiftLeft,1,2,x+y+z,,
+ShiftLeft,1,2,x+y+a,,
 ShiftLeft,1,3,ax+by+cz,,
 ShiftLeft,1,4,aw+bx+cy+dz,,
 RemoveZero,2,1,ax+0,a:+2|9,tidy: false
@@ -19,7 +20,7 @@ CombineAdd,5,1,a+b,,
 CombineAdd,5,2,a+b+c,,
 CombineAdd,5,3,x+x,,
 CombineAdd,5,3,ax+bx,,
-CombineAdd,5,4,ax-ax,,
+CombineAdd,5,4,ax-ax+b+c,,
 CombineAdd,6,1,ax+bx+cy,,
 CombineAdd,6,1,ax+bx+cy+dy,,
 CombineAdd,6,2,ax-ax+by,,

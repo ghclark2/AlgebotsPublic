@@ -18,6 +18,14 @@
 	{
 		"type": "ShiftLeft",
 		"level": "1",
+		"difficulty": "2",
+		"problem": "x+y+a",
+		"param": "",
+		"mods": ""
+	},
+	{
+		"type": "ShiftLeft",
+		"level": "1",
 		"difficulty": "3",
 		"problem": "ax+by+cz",
 		"param": "",
@@ -163,7 +171,7 @@
 		"type": "CombineAdd",
 		"level": "5",
 		"difficulty": "4",
-		"problem": "ax-ax",
+		"problem": "ax-ax+b+c",
 		"param": "",
 		"mods": ""
 	},
