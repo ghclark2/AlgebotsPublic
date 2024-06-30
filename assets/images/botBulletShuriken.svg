@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   sodipodi:docname="circleParticle.svg"
+   sodipodi:docname="botBulletNormal.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,18 +25,22 @@
      showgrid="true"
      units="px"
      inkscape:zoom="11.573962"
-     inkscape:cx="53.352517"
-     inkscape:cy="31.925109"
+     inkscape:cx="22.68022"
+     inkscape:cy="30.9747"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     inkscape:snap-bbox="false">
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     height="64px">
     <inkscape:grid
        type="xygrid"
-       id="grid198" />
+       id="grid44" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -44,12 +48,22 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
-    <circle
-       style="fill:#f3f3f3;fill-opacity:1"
-       id="path200"
-       cx="32"
-       cy="32"
-       r="32" />
+     transform="translate(0,-8)">
+    <path
+       sodipodi:type="star"
+       style="fill:#b3b3b3;stroke:#000000;stroke-width:0"
+       id="path48"
+       inkscape:flatsided="false"
+       sodipodi:sides="4"
+       sodipodi:cx="32"
+       sodipodi:cy="32"
+       sodipodi:r1="45.254833"
+       sodipodi:r2="16.29174"
+       sodipodi:arg1="0.78539816"
+       sodipodi:arg2="1.5707963"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 64,63.999999 32,48.29174 6.5637503e-7,64 15.70826,32 4.3893832e-7,6.5637503e-7 32,15.70826 63.999999,4.3893832e-7 48.29174,32 Z"
+       transform="translate(0,8)" />
   </g>
 </svg>

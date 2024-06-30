@@ -3,12 +3,12 @@
 
 <svg
    width="64"
-   height="64"
-   viewBox="0 0 64 64"
+   height="32"
+   viewBox="0 0 64 32"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   sodipodi:docname="circleParticle.svg"
+   sodipodi:docname="botBulletMissile.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,34 +22,34 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
-     showgrid="true"
+     showgrid="false"
      units="px"
-     inkscape:zoom="11.573962"
-     inkscape:cx="53.352517"
-     inkscape:cy="31.925109"
+     inkscape:zoom="8.184027"
+     inkscape:cx="31.952485"
+     inkscape:cy="40.872299"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     inkscape:snap-bbox="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid198" />
-  </sodipodi:namedview>
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     width="64px"
+     height="32px" />
   <defs
      id="defs2" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
-    <circle
-       style="fill:#f3f3f3;fill-opacity:1"
-       id="path200"
-       cx="32"
-       cy="32"
-       r="32" />
+     transform="translate(-16)">
+    <path
+       id="path1235"
+       style="fill:#cccccc;fill-opacity:1;stroke-width:1.93486"
+       inkscape:transform-center-x="2.6666669"
+       d="M 32,0 80,16 32,32 16,16 Z" />
   </g>
 </svg>

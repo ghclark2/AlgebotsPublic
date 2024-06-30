@@ -172,7 +172,7 @@
 		"level": "5",
 		"difficulty": "4",
 		"problem": "ax-ax+b+c",
-		"param": "",
+		"param": "a:+1|9",
 		"mods": ""
 	},
 	{
@@ -196,7 +196,7 @@
 		"level": "6",
 		"difficulty": "2",
 		"problem": "ax-ax+by",
-		"param": "",
+		"param": "a:+1|9",
 		"mods": ""
 	},
 	{
@@ -204,7 +204,7 @@
 		"level": "6",
 		"difficulty": "2",
 		"problem": "ax-ax+by+cy",
-		"param": "",
+		"param": "a:+1|9",
 		"mods": ""
 	},
 	{
@@ -212,7 +212,7 @@
 		"level": "6",
 		"difficulty": "2",
 		"problem": "ax-ax+by+c",
-		"param": "",
+		"param": "a:+1|9",
 		"mods": ""
 	},
 	{
@@ -252,7 +252,7 @@
 		"level": "6",
 		"difficulty": "4",
 		"problem": "ax-ax+cy+dy+ez",
-		"param": "",
+		"param": "a:+1|9",
 		"mods": ""
 	},
 	{

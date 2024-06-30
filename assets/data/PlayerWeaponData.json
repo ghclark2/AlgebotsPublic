@@ -1,0 +1,20 @@
+[
+	{
+		"payload": "shiftLeft",
+		"weaponSlot": "2",
+		"levelRequired": "1"
+	},
+	{
+		"payload": "+1",
+		"weaponSlot": "1",
+		"levelRequired": "2"
+	},
+	{
+		"payload": "combine",
+		"weaponSlot": "2",
+		"levelRequired": "5"
+	},
+	{
+		"payload": ""
+	}
+]
